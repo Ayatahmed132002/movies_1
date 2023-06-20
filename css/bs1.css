@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height:auto;
+}
+h1{
+    color:#495057;
+}
+.carousel-item img{
+
+    height:700px;
+}
+
+.img-nav img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+.col-sm-12 img{
+    width:90%;
+    height:300px;
+}
+.card{
+    width:90%;
+    margin-top: 0;
+   
+}
+.fixed-img{
+    width:100%;
+    height:400px;
+    margin-top:100px;
+    background-image:url(../b_img/group3.jpg);
+    background-position: fixed;
+    background-size: cover;
+}
+.section2-start{
+    background-color: rgb(40, 38, 38);
+    font-size: 25px;
+    line-height:10px;
+}
+
+.carousel-caption{
+    background-color: #a4a5a563;
+}
+.sec2-div-hr{
+    height:100px;
+    background-color: #444546;
+}
+.sec2-hr{
+    position:absolute;
+    width:100%;
+    height:3px;
+    background-color: #afb1b4;
+    margin-top: 45px;
+}
+.div-proposed{
+    width:100%;
+    height:50px;
+    background-color: #808284;
+
+}
+.h2-proposed{
+    text-align: center;
+    color:aliceblue
+}
+.img-fixed{
+    width:100%;
+    height:400px;
+    background-image: url(../b_img/Group4.jpg);
+    background-attachment:fixed ;
+    background-size: cover;
+    
+}
+.card-div{
+   
+    margin-bottom: 20px;
+}
+.d2{
+    width:100%;
+    height:400px;
+    background-image: url(../b_img/group2.jpg);
+    background-attachment:fixed ;
+    background-size: cover; 
+}
+.section2-bg{
+    background-color: rgb(60, 58, 58);
+}
+.sec3 .card img{
+    width:90%;
+    height:70%
+}
+.sec3-video-div video{
+ width:100%;
+ height:500px;
+}
+
+.icons i{
+    font-size: 25px;
+    color:rgb(179, 184, 200);
+    text-align: center;
+    line-height: 40px;
+    display:block;
+    
+} 
+.footer-section{
+    padding-top: 30px;
+    background-color: #495057;
+    height:500px;
+}
+.line{
+    width:100%;
+    height:1px;
+    background-color: #d5d7db;
+}

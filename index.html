@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>bootstap1</title>
+       <link rel="stylesheet" href="css/all.css">
+      
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/bs1.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Movies</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">about</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" role="button" aria-expanded="false">
+                    Films
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">romantic</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">secience fiction</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0 mx-2" type="submit">Search</button>
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" data-bs-toggle="modal"  data-bs-target="#staticBackdrop">login</button>
+              </form>
+            </div>
+          </nav>
+          <!-- the slide show -->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+               <ul class="carousel-indicators">
+                   <li data-target="#demo" data-slide-to="0" class="active"></li>
+                   <li data-target="#demo" data-slide-to="1" class=""></li>
+                   <li data-target="#demo" data-slide-to="2" class=""></li>
+               </ul>
+           
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="b_img/maxresdefault.jpg" alt="Los Angeles" class="w-100">
+                <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <a href="#films" class="btn btn-danger text-light">view films</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="b_img/mainpic.jpg" alt="Chicago" class="w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>second slide label</h5>
+                    <a href="#films" class="btn btn-success text-light">view films</a>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="b_img/R2.jpg" alt="New York" class="w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>third slide label</h5>
+                    <a href="#films" class="btn btn-primary text-light">view films</a>
+                  </div>
+              </div>
+            </div>
+            
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+        </div>
+        <!-- ******______ div up of collapse*****  -->
+        <div class="sec2-div-hr">
+            <span class="sec2-hr"></span>
+        </div>
+       <div class="div-proposed">
+        <h2 class="h2-proposed">Proposed Movies</h2>
+       </div> 
+       <!-- ***__End of div up of collapse__*****  -->
+       
+ <!-- **************   collapse  ***************** -->
+ <!-- //////////_____             ____+++++++++++++++ -->
+       <div class="accordion" id="accordionExample">
+        <div class="card w-100">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0 ">
+              <button class="btn btn-block text-left dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                ALIX OF WAR
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                War movie with events from the real <code>.show</code> class.
+            </div>
+          </div>
+        </div>
+        <div class="card w-100">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left collapsed dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                AVATAR
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                lush alien world of Pandora live the Na'vi
+            </div>
+          </div>
+        </div>
+        <div class="card w-100">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-block text-left collapsed dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                THOR RAGNAROK
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                action film with adventure
+            </div>
+          </div>
+        </div>
+        <div class="card w-100">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0 ">
+                <button class="btn btn-block text-left dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    MAINPIC
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                action film with adventure <code>.show</code> class.
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- **____collapse End ______************ -->
+
+      <!-- ******______ div after collapse*****  -->
+      <div class="sec2-div-hr">
+        <span class="sec2-hr"></span>
+      </div>
+          <div class="div-proposed">
+     </div>
+   <!-- ***__End of div after collapse__*****  -->
+   <div class="img-fixed">
+
+   </div>
+      
+        <div class="container-fluid section2-bg">
+            <h1 class="text-center my-6 text-secondary">Best Movies</h1>
+            <div class="row" id="films">
+                <div class="card-div col-sm-12 col-md-12 col-lg-3 ">
+                   <img src="b_img/The Thing.jpg " alt="">
+                    <div class="card">
+                        <div class="card-body ">
+                            <h3 class="card-title">
+                               ALIX OF WAR
+                            </h3>
+                            <p class="card-text">War movie with events from the real</p>
+                            <a  class="card-link btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/dark.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">DARK</h3>
+                            <p class="card-text">Action and adventure film</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/mainpic.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">MAINPIC</h3>
+                            <p class="card-text">romantic and historical film</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/Avatar.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">AVATAR</h3>
+                            <p class="card-text">lush alien world of Pandora live the Na'vi,</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/lost_in_space to.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">LOST IN SPACE TO</h3>
+                            <p class="card-text">1998 American science-fiction adventure film</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/SHINING.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body m-0">
+                            <h3 class="card-tittle">SHINING</h3>
+                            <p class="card-text">American science-fiction adventure film</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card-div card1 col-sm-12 col-md-12 col-lg-3">
+                    <img src="b_img/moon.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">MOON</h3>
+                            <p class="card-text">science fiction adventure film</p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-3 ">
+                    <img src="b_img/thor___ragnarok.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">THOR RAGNAROK</h3>
+                            <p class="card-text">action film with adventure </p>
+                            <a class="btn btn-primary" href="#">watch</a>
+                        </div>
+                    </div>
+                </div>
+           
+               
+            </div>
+        </div>
+        <div class="d2">
+
+        </div>
+        <div class="container section3-bg">
+            <h1 class="text-center my-6 text-secondary">Top view</h1>
+            <div class="row">
+                <div class="card-div col-sm-12 col-md-12 col-lg-4 ">
+                   <img src="b_img/The Thing.jpg " alt="">
+                    <div class="card">
+                        <div class="card-body ">
+                            <h3 class="card-title">
+                               ALIX OF WAR
+                            </h3>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-4">
+                    <img src="b_img/dark.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">DARK</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-div col-sm-12 col-md-12 col-lg-4">
+                    <img src="b_img/mainpic.jpg" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-tittle">MAINPIC</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid sec3-video-div bg-dark p-5">
+            <h3 class="section2-start p-4 text-light text-center mx-0" >enjoy free watching</h3>
+            <video  class="col-sm-12"controls=" " loop="" muted="" autoplay="">
+                <source src="media/EpicMind Studio_s Jewelry Video Reel(720P_HD).mp4"  type="video/mp4">
+                <source src="media/EpicMind Studio_s Jewelry Video Reel(720P_HD).mp4"   type="video/ogg">
+            </video>
+       </div> -->
+       <div class="d-flex flex-wrap justify-content-center gap-5 text-center py-4 bg-secondary ">
+        <div class="card bg-dark card-icons mx-3" style="width: 13rem;">
+          <div class="card-body f-card">
+            <h5 class="text-light">Subscribe Now</h5>
+            <div class="icons">
+              <i class="fab fa-twitter"></i>
+            </div>          
+            <a href="#" target="_blank">Go To Link</a>
+          </div>
+        </div>
+        <div class="card bg-dark  mx-3" style="width: 13rem;">
+          <div class="card-body">
+            <h5 class="text-light">Follow</h5>
+            <div class="icons">
+              <i class="fab fa-instagram"></i>
+            </div>          
+            <a href="#" target="_blank">Go To Link</a>
+          </div>
+        </div>
+        <div class="card bg-dark mx-3" style="width: 13rem;">
+          <div class="card-body">
+            <h5 class="text-light">Like the page</h5>
+            <div class="icons">
+              <i class="fab fa-facebook"></i>
+            </div>          
+            <a href="#" target="_blank">Go To Link</a>
+          </div>
+        </div>
+        <div class="card bg-dark  mx-3 " style="width: 13rem;">
+          <div class="card-body">
+            <h5 class="text-light">Watch Videos</h5>
+            <div class="icons">
+              <i class="fab fa-youtube"></i>
+            </div>          
+            <a href="#" target="_blank">Go To Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap justify-content-around text-center text-light py-4 bg-dark">
+        <div class="col-lg-3 col-12">
+          <h3 class=" border-top border-secondary border-bottom py-3">
+            <i class="fab fa-facebook text-primary fs-3"></i>
+            Good Company
+          </h3>
+          <div>
+            <p>Tel : 131-353-5297</p>
+            <p>Address : EGYPT</p>
+            <p>Fax : 185-857-5637</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <h3 class=" border-top border-secondary border-bottom py-3">
+            <i class="fab fa-facebook text-primary fs-3"></i>
+            Important links
+          </h3>
+          <div>
+            <a href="#" class="d-block my-2 text-light">Visit Us</a>
+            <a href="#" class="d-block my-3 text-light"> Take alook </a>
+            <a href="#" class="d-block my-3 text-light">Your health is more importan</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <h3 class=" border-top border-secondary border-bottom py-3">
+            <i class="fab fa-facebook text-primary fs-3"></i>
+            Vision
+          </h3>
+          <div>
+            <p>Serveices for all</p>
+            <p>Provide best serveices</p>
+            <p>you will be better than before</p>
+          </div>
+        </div>
+      </div>
+     
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
